@@ -4,7 +4,7 @@ export const FETCH_STARWARS_SUCCESS = 'FETCH_STARWARS_SUCCESS';
 export const FETCH_STARWARS_ERROR = 'FETCH_STARWARS_ERROR';
 
 
-export const getStarWars = data => dispatch => {
+export const getStarWars = () => dispatch => {
 
     dispatch({ type: FETCH_STARWARS_START });
     axios

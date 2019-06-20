@@ -1,15 +1,11 @@
 import React from "react";
 import { connect } from "react-redux";
-// import styled from 'styled-components';
-// import Loader from 'react-loader-spinner';
 import { CharacterList } from "../components";
 import { getStarWars } from '../actions';
 // import actions
 
 class CharacterListView extends React.Component {
-  // constructor() {
-  //   super();
-  // }
+  
 
   componentDidMount() {
     // call our action
