@@ -3,11 +3,11 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import { Provider } from "react-redux";
-import { applyMiddleware, createStore, comppose, compose } from "redux";
+import { applyMiddleware, createStore, compose } from "redux";
 import rootReducer from "./reducers";
 import thunk from 'redux-thunk';
 // import logger from 'redux-logger'
-// needed dependancies
+// needed dependencies
 // applyMiddleware from redux
 // thunk from redux-thunk
 // logger from redux-logger

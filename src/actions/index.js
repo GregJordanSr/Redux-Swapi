@@ -10,7 +10,7 @@ export const getStarWars = data => dispatch => {
     axios
         .get(`https://swapi.co/api/people/`)
         .then(res => {
-            dispatch({ type: FETCH_STARWARS_SUCCESS, payload: res.data });
+            dispatch({ type: FETCH_STARWARS_SUCCESS, payload: res.data.results });
         })
         .catch(err => dispatch({ type: FETCH_STARWARS_ERROR }));
 }
