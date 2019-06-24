@@ -3,6 +3,9 @@
         "compose",
         "devtools",
         "extension",
-        "redux"
+        "fetch",
+        "redux",
+        "start",
+        "starwars"
     ]
 }
